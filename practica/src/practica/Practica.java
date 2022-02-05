@@ -29,14 +29,33 @@ public class Practica {
         System.out.println (matri [0][1]); 
         System.out.println (matri [0][2]); 
        
-                
- //System.out.println("Introduzca un numero");
- //num=leer.nextInt();
- //System.out.println("El numeroes:"+num);//
- 
+ for(int i=0;i<=2;i++)
+{
+    System.out.println("Introduzca la segunda fila de la matriz de izquierda a derecha");
+    matri [1][i]=leer.nextInt();
+}
+     System.out.println("los numeros introducidos son");
+        System.out.println (matri [1][0]);                  
+        System.out.println (matri [1][1]);
+        System.out.println (matri [1][2]);
+        
+for(int i=0;i<=2;i++)
+{
+    System.out.println("Introduzca la tercera y ultima fila de la matriz de izquierda a derecha");
+    matri [2][i]=leer.nextInt();
+}
+     System.out.println("los numeros introducidos son");
+        System.out.println (matri [2][0]);                  
+        System.out.println (matri [2][1]);
+        System.out.println (matri [2][2]);
+        
+    System.out.println("Su primera matriz es:");
+    System.out.println("|"+(matri [0][0])+"|"+(matri [0][1])+"|"+(matri [0][2])+"|");
+    System.out.println("|"+(matri [1][0])+"|"+(matri [1][1])+"|"+(matri [1][2])+"|");
+    System.out.println("|"+(matri [2][0])+"|"+(matri [2][1])+"|"+(matri [2][2])+"|");  
  
   
-
+ System.out.println("---------------------"); 
   } 
 }   
         // TODO code application logic here
