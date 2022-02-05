@@ -27,6 +27,8 @@ public class Practica {
  int x7;
  int x8;
  int x9;
+ int matri5[][]=new int[3][3];
+ 
  Scanner leer= new Scanner(System.in);
  
  for(int i=0;i<=2;i++)
@@ -175,7 +177,16 @@ System.out.println("|"+(matrisum [2][0])+"|"+(matrisum [2][1])+"|"+(matrisum [2]
 
 System.out.println("---------------------"); 
  
- 
+x1= matrisum[0][0]*(matri3 [0][0]);
+x2= matrisum[0][1]*(matri3 [1][0]);
+x3= matrisum[0][2]*(matri3 [2][0]);
+
+x4= matrisum[0][0]* (matri3 [0][1]) ;
+x5= matrisum[0][1]* (matri3 [1][1]);
+x6= matrisum[0][2]* (matri3 [2][1]);
+
+x7= matrisum[0][0]*(matri2 [0][2]);
+   
  
  
  
