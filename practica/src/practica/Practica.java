@@ -17,7 +17,16 @@ public class Practica {
  int matri [][]=new int[3][3];
  int matri2 [][]=new int[3][3];
  int matri3 [][]=new int[3][3];
- 
+ int matrisum [][]=new int[3][3];
+ int x1;
+ int x2;
+ int x3;
+ int x4;
+ int x5;
+ int x6;
+ int x7;
+ int x8;
+ int x9;
  Scanner leer= new Scanner(System.in);
  
  for(int i=0;i<=2;i++)
@@ -130,15 +139,41 @@ for(int i=0;i<=2;i++)
     System.out.println("|"+(matri3 [1][0])+"|"+(matri3 [1][1])+"|"+(matri3 [1][2])+"|");
     System.out.println("|"+(matri3 [2][0])+"|"+(matri3 [2][1])+"|"+(matri3 [2][2])+"|"); 
  
+   System.out.println("---------------------"); 
+   
+ x1 = (matri [0][0])+(matri2 [0][0]);             
+ x2 =(matri [0][1])+ (matri2 [0][1]);
+ x3 =(matri [0][2])+(matri2 [0][2]);
+ 
+x4 =(matri [1][0])+ (matri2 [1][0]);              
+x5 =(matri [1][1])+ (matri2 [1][1]);
+x6 =(matri [1][2])+  (matri2 [1][2]);
  
  
+x7 =(matri [2][0])+ (matri2 [2][0]); 
+x8 =(matri [2][1])+ (matri2 [2][1]);
+x9 =(matri [2][2]) + (matri2 [2][2]);
  
+                       
+ matrisum[0][0]= x1;     
+ matrisum[0][1]= x2;
+ matrisum[0][2]= x3;
+ matrisum[1][0]= x4;
+ matrisum[1][1]= x5; 
+ matrisum[1][2]= x6;  
+ matrisum[2][0]= x7;
+ matrisum[2][1]= x8;  
+ matrisum[2][2]= x9;
  
- 
- 
- 
- 
- 
+System.out.println("La cuarta matriz resultante de la suma de la primera y segunda matriz es :");
+System.out.println("|"+(matrisum [0][0])+"|"+(matrisum [0][1])+"|"+(matrisum [0][2])+"|");
+System.out.println("|"+(matrisum [1][0])+"|"+(matrisum [1][1])+"|"+(matrisum [1][2])+"|");
+System.out.println("|"+(matrisum [2][0])+"|"+(matrisum [2][1])+"|"+(matrisum [2][2])+"|"); 
+   
+
+
+
+System.out.println("---------------------"); 
  
  
  
